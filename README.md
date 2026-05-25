@@ -231,7 +231,7 @@ How does backpropagation work?
 
 ---
 
-# Author
+
 
 # Author
 
