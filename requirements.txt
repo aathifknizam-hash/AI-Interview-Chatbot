@@ -1,0 +1,21 @@
+# AI Interview Coach — 2026 dependency stack
+# Install with:  pip install -r requirements.txt
+
+# ── Core ML (replaces tensorflow + nltk entirely) ──────────────────────────
+sentence-transformers==3.0.1   # semantic embeddings (pulls torch automatically)
+numpy==1.26.4                  # array ops for cosine similarity
+
+# ── API ────────────────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0      # [standard] adds websocket + watchfiles for --reload
+pydantic==2.7.1
+
+# ── Frontend ───────────────────────────────────────────────────────────────
+streamlit==1.35.0
+requests==2.31.0               # Streamlit → FastAPI HTTP calls
+
+# ── Removed vs old requirements.txt ───────────────────────────────────────
+# tensorflow==2.10.0   → deleted (no longer needed)
+# nltk==3.8.1          → deleted (sentence-transformers handles tokenisation)
+# python-multipart     → deleted (no file uploads)
+# protobuf==3.19.6     → deleted (was a tensorflow transitive dep)
