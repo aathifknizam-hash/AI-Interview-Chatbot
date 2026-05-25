@@ -237,6 +237,7 @@ How does backpropagation work?
 
 **Aathif Nizam**  
 Aspiring AI Engineer
+
 Built this AI Interview Coach as a hands-on project in Machine Learning and NLP, implementing semantic search using Sentence Transformers and deploying a full-stack AI system with FastAPI and Streamlit.
 Focused on:
 - Semantic NLP systems
