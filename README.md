@@ -233,8 +233,15 @@ How does backpropagation work?
 
 # Author
 
-Developed as an AI/ML interview preparation assistant project focused on semantic NLP systems and modern chatbot architecture.
+# Author
 
+**Aathif Nizam**  
+Aspiring AI Engineer
+Built this AI Interview Coach as a hands-on project in Machine Learning and NLP, implementing semantic search using Sentence Transformers and deploying a full-stack AI system with FastAPI and Streamlit.
+Focused on:
+- Semantic NLP systems
+- AI chatbot architecture
+- Real-time ML inference pipelines
 ---
 
 # Acknowledgements
