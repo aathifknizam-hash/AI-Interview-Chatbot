@@ -132,7 +132,7 @@ The chatbot supports interview preparation for:
 ## 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI-Trainer-Chatbot.git
+git clone https://github.com/aathifknizam-hash/AI-Interview-Chatbot.git
 cd AI-Trainer-Chatbot
 ```
 
