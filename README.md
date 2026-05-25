@@ -43,12 +43,15 @@ The project uses a modern semantic intent-classification architecture built with
 ```txt
 AI-Trainer-Chatbot/
 │
-├── app.py
-├── main.py
-├── predict.py
-├── preprocessing.py
-├── train.py
-│
+├── backend/
+|   ├── main.py
+|   ├── predict.py
+|   ├── preprocessing.py
+|   └── train.py
+|
+│── frontend/
+│   └── app.py
+|
 ├── dataset/
 │   └── intents.json
 │
